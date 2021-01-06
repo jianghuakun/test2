@@ -1,0 +1,9 @@
+2020-12-02 14:53:50,306 - selenium - ERROR - basePage  - 126 - ƒ⁄»› ‰»Î±®¥Ì
+Traceback (most recent call last):
+  File "D:\python\python36-64\project\Python3-Selenium-master\Common\basePage.py", line 123, in type
+    element.send_keys(value)
+  File "D:\python\python36-64\lib\site-packages\selenium\webdriver\remote\webelement.py", line 478, in send_keys
+    {'text': "".join(keys_to_typing(value)),
+  File "D:\python\python36-64\lib\site-packages\selenium\webdriver\common\utils.py", line 150, in keys_to_typing
+    for i in range(len(val)):
+TypeError: object of type 'NoneType' has no len()

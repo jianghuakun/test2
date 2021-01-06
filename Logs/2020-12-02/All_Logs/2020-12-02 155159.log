@@ -1,0 +1,16 @@
+2020-12-02 15:52:01,626 - selenium - INFO - 读取浏览器配置,值为chrome
+2020-12-02 15:52:01,626 - selenium - INFO - 读取url,值为http://192.168.75.245:9020/user/login?redirect=%2Fiversion%2Fupdate
+2020-12-02 15:52:06,881 - selenium - INFO - 打开chrome浏览器
+2020-12-02 15:52:08,931 - selenium - INFO - 访问url
+2020-12-02 15:52:13,045 - selenium - INFO - 浏览器最大化
+2020-12-02 15:52:13,047 - selenium - INFO - 设置静态等待时间10秒
+2020-12-02 15:52:15,099 - selenium - INFO - 元素定位成功。定位方式：xpath，使用的值：//input[@placeholder="请输入帐户名"]
+2020-12-02 15:52:15,155 - selenium - INFO - 点击元素成功
+2020-12-02 15:52:17,210 - selenium - INFO - 元素定位成功。定位方式：xpath，使用的值：//input[@placeholder="请输入帐户名"]
+2020-12-02 15:52:17,341 - selenium - INFO - 输入的内容：jianghuakun
+2020-12-02 15:52:19,394 - selenium - INFO - 元素定位成功。定位方式：xpath，使用的值：//input[@placeholder="请输入密码"]
+2020-12-02 15:52:19,424 - selenium - INFO - 点击元素成功
+2020-12-02 15:52:21,477 - selenium - INFO - 元素定位成功。定位方式：xpath，使用的值：//input[@placeholder="请输入密码"]
+2020-12-02 15:52:21,548 - selenium - INFO - 输入的内容：123456
+2020-12-02 15:52:23,598 - selenium - INFO - 元素定位成功。定位方式：xpath，使用的值：//input[@placeholder="请输入验证码"]
+2020-12-02 15:52:23,628 - selenium - INFO - 点击元素成功

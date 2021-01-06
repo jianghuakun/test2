@@ -1,0 +1,15 @@
+2020-12-03 11:42:46,591 - selenium - ERROR - basePage  - 106 - 没有定位到元素,定位方式：xpath，使用的值：//input[@id="s-top-left"]/a[@href="http://news.baidu.com/"]
+Traceback (most recent call last):
+  File "D:\python\python36-64\project\Python3-Selenium-master\Common\basePage.py", line 102, in get_element
+    element = self.driver.find_element_by_xpath(value)
+  File "D:\python\python36-64\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "D:\python\python36-64\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "D:\python\python36-64\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\python\python36-64\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id="s-top-left"]/a[@href="http://news.baidu.com/"]"}
+  (Session info: chrome=80.0.3987.149)
+

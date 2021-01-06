@@ -1,0 +1,8 @@
+2020-12-02 14:30:10,474 - selenium - INFO - 读取浏览器配置,值为chrome
+2020-12-02 14:30:10,475 - selenium - INFO - 读取url,值为http://192.168.75.245:9020/user/login?redirect=%2Fiversion%2Fupdate
+2020-12-02 14:30:15,737 - selenium - INFO - 打开chrome浏览器
+2020-12-02 14:30:17,664 - selenium - INFO - 访问url
+2020-12-02 14:30:21,793 - selenium - INFO - 浏览器最大化
+2020-12-02 14:30:21,795 - selenium - INFO - 设置静态等待时间10秒
+2020-12-02 14:30:21,806 - selenium - INFO - 元素定位成功。定位方式：xpath，使用的值：//input[@placeholder="请输入帐户名"]
+2020-12-02 14:30:21,844 - selenium - INFO - 点击元素成功

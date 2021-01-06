@@ -1,0 +1,29 @@
+2020-12-02 15:33:03,128 - selenium - INFO - 读取浏览器配置,值为chrome
+2020-12-02 15:33:03,128 - selenium - INFO - 读取url,值为http://192.168.75.245:9020/user/login?redirect=%2Fiversion%2Fupdate
+2020-12-02 15:33:08,386 - selenium - INFO - 打开chrome浏览器
+2020-12-02 15:33:09,890 - selenium - INFO - 访问url
+2020-12-02 15:33:14,006 - selenium - INFO - 浏览器最大化
+2020-12-02 15:33:14,007 - selenium - INFO - 设置静态等待时间10秒
+2020-12-02 15:33:16,055 - selenium - INFO - 元素定位成功。定位方式：xpath，使用的值：//input[@placeholder="请输入帐户名"]
+2020-12-02 15:33:16,106 - selenium - INFO - 点击元素成功
+2020-12-02 15:33:18,165 - selenium - INFO - 元素定位成功。定位方式：xpath，使用的值：//input[@placeholder="请输入帐户名"]
+2020-12-02 15:33:18,317 - selenium - INFO - 输入的内容：jianghuakun
+2020-12-02 15:33:20,373 - selenium - INFO - 元素定位成功。定位方式：xpath，使用的值：//input[@placeholder="请输入密码"]
+2020-12-02 15:33:20,402 - selenium - INFO - 点击元素成功
+2020-12-02 15:33:22,455 - selenium - INFO - 元素定位成功。定位方式：xpath，使用的值：//input[@placeholder="请输入密码"]
+2020-12-02 15:33:22,554 - selenium - INFO - 输入的内容：123456.0
+2020-12-02 15:33:24,605 - selenium - INFO - 元素定位成功。定位方式：xpath，使用的值：//input[@placeholder="请输入验证码"]
+2020-12-02 15:33:24,635 - selenium - INFO - 点击元素成功
+2020-12-02 15:33:26,687 - selenium - INFO - 元素定位成功。定位方式：xpath，使用的值：//input[@placeholder="请输入验证码"]
+2020-12-02 15:33:26,703 - selenium - ERROR - 内容输入报错
+Traceback (most recent call last):
+  File "D:\python\python36-64\project\Python3-Selenium-master\Common\basePage.py", line 128, in type
+    element.send_keys(value)
+  File "D:\python\python36-64\lib\site-packages\selenium\webdriver\remote\webelement.py", line 478, in send_keys
+    {'text': "".join(keys_to_typing(value)),
+  File "D:\python\python36-64\lib\site-packages\selenium\webdriver\common\utils.py", line 150, in keys_to_typing
+    for i in range(len(val)):
+TypeError: object of type 'NoneType' has no len()
+2020-12-02 15:33:27,683 - selenium - INFO - 截图保存成功
+2020-12-02 15:33:29,737 - selenium - INFO - 元素定位成功。定位方式：xpath，使用的值：//button[@type="submit"]
+2020-12-02 15:33:29,787 - selenium - INFO - 点击元素成功

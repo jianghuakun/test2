@@ -1,0 +1,48 @@
+2020-12-03 14:43:56,901 - selenium - ERROR - basePage  - 106 - 没有定位到元素,定位方式：id，使用的值：//input[@id="kw"]
+Traceback (most recent call last):
+  File "D:\python\python36-64\project\Python3-Selenium-master\Common\basePage.py", line 88, in get_element
+    element = self.driver.find_element_by_id(value)
+  File "D:\python\python36-64\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 360, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "D:\python\python36-64\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "D:\python\python36-64\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\python\python36-64\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSelectorException: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=80.0.3987.149)
+
+2020-12-03 14:43:56,903 - selenium - ERROR - basePage  - 108 - 元素定位方式错误，请使用id，name，class，tag，link，plink，css，xpath为定位方式参数
+2020-12-03 14:43:58,958 - selenium - ERROR - basePage  - 106 - 没有定位到元素,定位方式：name，使用的值：//input[@name="wd"]
+Traceback (most recent call last):
+  File "D:\python\python36-64\project\Python3-Selenium-master\Common\basePage.py", line 90, in get_element
+    element = self.driver.find_element_by_name(value)
+  File "D:\python\python36-64\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 496, in find_element_by_name
+    return self.find_element(by=By.NAME, value=name)
+  File "D:\python\python36-64\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "D:\python\python36-64\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\python\python36-64\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSelectorException: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=80.0.3987.149)
+
+2020-12-03 14:43:58,959 - selenium - ERROR - basePage  - 108 - 元素定位方式错误，请使用id，name，class，tag，link，plink，css，xpath为定位方式参数
+2020-12-03 14:44:01,014 - selenium - ERROR - basePage  - 106 - 没有定位到元素,定位方式：class，使用的值：//input[@class="s_ipt"]
+Traceback (most recent call last):
+  File "D:\python\python36-64\project\Python3-Selenium-master\Common\basePage.py", line 92, in get_element
+    element = self.driver.find_element_by_class_name(value)
+  File "D:\python\python36-64\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 564, in find_element_by_class_name
+    return self.find_element(by=By.CLASS_NAME, value=name)
+  File "D:\python\python36-64\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "D:\python\python36-64\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\python\python36-64\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSelectorException: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=80.0.3987.149)
+
+2020-12-03 14:44:01,015 - selenium - ERROR - basePage  - 108 - 元素定位方式错误，请使用id，name，class，tag，link，plink，css，xpath为定位方式参数

@@ -1,0 +1,6 @@
+2020-12-01 15:23:44,990 - selenium - INFO - 读取浏览器配置,值为chrome
+2020-12-01 15:23:44,990 - selenium - INFO - 读取url,值为http://192.168.75.245:9020/user/login?redirect=%2Fiversion%2Fupdate
+2020-12-01 15:23:50,197 - selenium - INFO - 打开chrome浏览器
+2020-12-01 15:23:51,401 - selenium - INFO - 访问url
+2020-12-01 15:23:55,561 - selenium - INFO - 浏览器最大化
+2020-12-01 15:23:55,563 - selenium - INFO - 设置静态等待时间10秒

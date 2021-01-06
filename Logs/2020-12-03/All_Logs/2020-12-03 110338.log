@@ -1,0 +1,12 @@
+2020-12-03 11:03:40,278 - selenium - INFO - 读取浏览器配置,值为chrome
+2020-12-03 11:03:40,278 - selenium - INFO - 读取url,值为https://www.baidu.com/
+2020-12-03 11:03:45,475 - selenium - INFO - 打开chrome浏览器
+2020-12-03 11:03:46,074 - selenium - INFO - 访问url
+2020-12-03 11:03:50,188 - selenium - INFO - 浏览器最大化
+2020-12-03 11:03:50,190 - selenium - INFO - 设置静态等待时间10秒
+2020-12-03 11:03:52,254 - selenium - INFO - 元素定位成功。定位方式：xpath，使用的值：//input[@id="kw"]
+2020-12-03 11:03:52,290 - selenium - INFO - 点击元素成功
+2020-12-03 11:03:54,346 - selenium - INFO - 元素定位成功。定位方式：xpath，使用的值：//input[@id="kw"]
+2020-12-03 11:03:54,458 - selenium - INFO - 输入的内容：python
+2020-12-03 11:03:56,527 - selenium - INFO - 元素定位成功。定位方式：xpath，使用的值：//input[@id="su"]
+2020-12-03 11:03:56,589 - selenium - INFO - 点击元素成功

@@ -1,0 +1,21 @@
+2020-12-02 09:29:19,579 - selenium - INFO - 读取浏览器配置,值为chrome
+2020-12-02 09:29:19,579 - selenium - INFO - 读取url,值为http://192.168.75.245:9020/user/login?redirect=%2Fiversion%2Fupdate
+2020-12-02 09:29:24,811 - selenium - INFO - 打开chrome浏览器
+2020-12-02 09:29:26,309 - selenium - INFO - 访问url
+2020-12-02 09:29:30,444 - selenium - INFO - 浏览器最大化
+2020-12-02 09:29:30,445 - selenium - INFO - 设置静态等待时间10秒
+2020-12-02 09:29:40,544 - selenium - ERROR - 没有定位到元素,定位方式：xpath，使用的值：//body/div/div/div/div/div/form/div/div/div/span/span/span/input
+Traceback (most recent call last):
+  File "D:\python\python36-64\project\Python3-Selenium-master\Common\basePage.py", line 100, in get_element
+    element = self.driver.find_element_by_xpath(value)
+  File "D:\python\python36-64\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "D:\python\python36-64\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "D:\python\python36-64\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\python\python36-64\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//body/div/div/div/div/div/form/div/div/div/span/span/span/input"}
+  (Session info: chrome=80.0.3987.149)
+

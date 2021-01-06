@@ -1,0 +1,51 @@
+2020-12-03 17:58:51,591 - selenium - INFO - 读取浏览器配置,值为chrome
+2020-12-03 17:58:51,591 - selenium - INFO - 读取url,值为https://www.baidu.com/
+2020-12-03 17:58:56,838 - selenium - INFO - 打开chrome浏览器
+2020-12-03 17:58:57,556 - selenium - INFO - 访问url
+2020-12-03 17:59:01,673 - selenium - INFO - 浏览器最大化
+2020-12-03 17:59:01,674 - selenium - INFO - 设置静态等待时间10秒
+2020-12-03 17:59:01,744 - selenium - INFO - 元素定位成功。定位方式：xpath，使用的值：//div[@id="s-top-left"]/a
+2020-12-03 17:59:01,757 - selenium - INFO - 获取的text：新闻
+2020-12-03 17:59:03,814 - selenium - INFO - 元素定位成功。定位方式：xpath，使用的值：//div[@id="s-top-left"]/a
+2020-12-03 17:59:05,883 - selenium - INFO - 元素定位成功。定位方式：xpath，使用的值：//input[@id="kw"]
+2020-12-03 17:59:05,930 - selenium - INFO - 点击元素成功
+2020-12-03 17:59:05,991 - selenium - INFO - 元素定位成功。定位方式：xpath，使用的值：//input[@id="kw"]
+2020-12-03 17:59:05,996 - selenium - INFO - 输入的内容：name
+2020-12-03 17:59:06,051 - selenium - INFO - 元素定位成功。定位方式：xpath，使用的值：//input[@id="kw"]
+2020-12-03 17:59:06,055 - selenium - INFO - 输入的内容：name
+2020-12-03 17:59:08,113 - selenium - INFO - 元素定位成功。定位方式：id，使用的值：kw
+2020-12-03 17:59:08,128 - selenium - INFO - 点击元素成功
+2020-12-03 17:59:10,184 - selenium - INFO - 元素定位成功。定位方式：name，使用的值：wd
+2020-12-03 17:59:10,215 - selenium - INFO - 点击元素成功
+2020-12-03 17:59:12,266 - selenium - INFO - 元素定位成功。定位方式：class，使用的值：s_ipt
+2020-12-03 17:59:12,283 - selenium - INFO - 点击元素成功
+2020-12-03 17:59:12,331 - selenium - INFO - 当前打开的title是：百度一下，你就知道
+2020-12-03 17:59:14,382 - selenium - INFO - 元素定位成功。定位方式：xpath，使用的值：//input[@id="su"]
+2020-12-03 17:59:14,860 - selenium - INFO - 点击元素成功
+2020-12-03 17:59:24,921 - selenium - INFO - 强制等待10秒
+2020-12-03 17:59:26,982 - selenium - INFO - 元素定位成功。定位方式：id，使用的值：kw
+2020-12-03 17:59:27,098 - selenium - INFO - 输入的内容：python3
+2020-12-03 17:59:37,147 - selenium - INFO - 强制等待10秒
+2020-12-03 17:59:39,198 - selenium - INFO - 元素定位成功。定位方式：xpath，使用的值：//div[@id="u"]/a[@class="toindex"]
+2020-12-03 17:59:39,434 - selenium - INFO - 点击元素成功
+2020-12-03 17:59:49,489 - selenium - INFO - 强制等待10秒
+2020-12-03 17:59:51,540 - selenium - INFO - 元素定位成功。定位方式：xpath，使用的值：//div[@id="s-top-left"]/a
+2020-12-03 17:59:51,605 - selenium - INFO - 点击元素成功
+2020-12-03 18:00:01,670 - selenium - INFO - 强制等待10秒
+2020-12-03 18:00:13,756 - selenium - ERROR - 没有定位到元素,定位方式：xpath，使用的值：//li[@class="lavalamp-item"]/a[@href="/guonei"]
+Traceback (most recent call last):
+  File "D:\python\python36-64\project\Python3-Selenium-master\Common\basePage.py", line 102, in get_element
+    element = self.driver.find_element_by_xpath(value)
+  File "D:\python\python36-64\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "D:\python\python36-64\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "D:\python\python36-64\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\python\python36-64\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//li[@class="lavalamp-item"]/a[@href="/guonei"]"}
+  (Session info: chrome=80.0.3987.149)
+
+2020-12-03 18:00:13,758 - selenium - ERROR - 元素定位方式错误，请使用id，name，class，tag，link，plink，css，xpath为定位方式参数
+2020-12-03 18:00:23,806 - selenium - INFO - 强制等待10秒

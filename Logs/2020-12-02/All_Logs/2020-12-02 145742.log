@@ -1,0 +1,19 @@
+2020-12-02 14:57:44,366 - selenium - INFO - 读取浏览器配置,值为chrome
+2020-12-02 14:57:44,366 - selenium - INFO - 读取url,值为http://192.168.75.245:9020/user/login?redirect=%2Fiversion%2Fupdate
+2020-12-02 14:57:49,650 - selenium - INFO - 打开chrome浏览器
+2020-12-02 14:57:51,387 - selenium - INFO - 访问url
+2020-12-02 14:57:55,507 - selenium - INFO - 浏览器最大化
+2020-12-02 14:57:55,509 - selenium - INFO - 设置静态等待时间10秒
+2020-12-02 14:57:59,554 - selenium - INFO - 元素定位成功。定位方式：xpath，使用的值：//input[@placeholder="请输入帐户名"]
+2020-12-02 14:57:59,598 - selenium - INFO - 点击元素成功
+2020-12-02 14:58:01,648 - selenium - INFO - 元素定位成功。定位方式：xpath，使用的值：//input[@placeholder="请输入帐户名"]
+2020-12-02 14:58:01,663 - selenium - ERROR - 内容输入报错
+Traceback (most recent call last):
+  File "D:\python\python36-64\project\Python3-Selenium-master\Common\basePage.py", line 123, in type
+    element.send_keys(value)
+  File "D:\python\python36-64\lib\site-packages\selenium\webdriver\remote\webelement.py", line 478, in send_keys
+    {'text': "".join(keys_to_typing(value)),
+  File "D:\python\python36-64\lib\site-packages\selenium\webdriver\common\utils.py", line 150, in keys_to_typing
+    for i in range(len(val)):
+TypeError: object of type 'NoneType' has no len()
+2020-12-02 14:58:02,628 - selenium - INFO - 截图保存成功

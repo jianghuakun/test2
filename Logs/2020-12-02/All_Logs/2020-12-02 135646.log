@@ -1,0 +1,7 @@
+2020-12-02 13:56:46,718 - selenium - INFO - 读取浏览器配置,值为chrome
+2020-12-02 13:56:46,718 - selenium - INFO - 读取url,值为http://192.168.75.245:9020/user/login?redirect=%2Fiversion%2Fupdate
+2020-12-02 13:56:51,991 - selenium - INFO - 打开chrome浏览器
+2020-12-02 13:56:53,799 - selenium - INFO - 访问url
+2020-12-02 13:56:57,921 - selenium - INFO - 浏览器最大化
+2020-12-02 13:56:57,922 - selenium - INFO - 设置静态等待时间10秒
+2020-12-02 13:56:57,922 - selenium - ERROR - 元素定位方式错误，请使用id，name，class，tag，link，plink，css，xpath为定位方式参数

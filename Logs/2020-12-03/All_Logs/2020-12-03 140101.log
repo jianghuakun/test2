@@ -1,0 +1,14 @@
+2020-12-03 14:01:03,680 - selenium - INFO - 读取浏览器配置,值为chrome
+2020-12-03 14:01:03,680 - selenium - INFO - 读取url,值为https://www.baidu.com/
+2020-12-03 14:01:08,847 - selenium - INFO - 打开chrome浏览器
+2020-12-03 14:01:09,360 - selenium - INFO - 访问url
+2020-12-03 14:01:13,474 - selenium - INFO - 浏览器最大化
+2020-12-03 14:01:13,476 - selenium - INFO - 设置静态等待时间10秒
+2020-12-03 14:01:13,555 - selenium - INFO - 元素定位成功。定位方式：xpath，使用的值：//div[@id="s-top-left"]/a
+2020-12-03 14:01:13,568 - selenium - INFO - 获取的text：新闻
+2020-12-03 14:01:17,682 - selenium - INFO - 元素定位成功。定位方式：xpath，使用的值：//input[@id="kw"]
+2020-12-03 14:01:17,714 - selenium - INFO - 点击元素成功
+2020-12-03 14:01:19,764 - selenium - INFO - 元素定位成功。定位方式：xpath，使用的值：//input[@id="kw"]
+2020-12-03 14:01:19,913 - selenium - INFO - 输入的内容：python3菜鸟教程
+2020-12-03 14:01:21,970 - selenium - INFO - 元素定位成功。定位方式：xpath，使用的值：//input[@id="su"]
+2020-12-03 14:01:22,022 - selenium - INFO - 点击元素成功

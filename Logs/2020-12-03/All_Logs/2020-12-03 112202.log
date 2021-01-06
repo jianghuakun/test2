@@ -1,0 +1,27 @@
+2020-12-03 11:22:04,234 - selenium - INFO - 读取浏览器配置,值为chrome
+2020-12-03 11:22:04,234 - selenium - INFO - 读取url,值为https://www.baidu.com/
+2020-12-03 11:22:09,556 - selenium - INFO - 打开chrome浏览器
+2020-12-03 11:22:10,072 - selenium - INFO - 访问url
+2020-12-03 11:22:14,198 - selenium - INFO - 浏览器最大化
+2020-12-03 11:22:14,200 - selenium - INFO - 设置静态等待时间10秒
+2020-12-03 11:22:16,280 - selenium - INFO - 元素定位成功。定位方式：xpath，使用的值：//input[@id="kw"]
+2020-12-03 11:22:16,311 - selenium - INFO - 点击元素成功
+2020-12-03 11:22:18,364 - selenium - INFO - 元素定位成功。定位方式：xpath，使用的值：//input[@id="kw"]
+2020-12-03 11:22:18,516 - selenium - INFO - 输入的内容：python3菜鸟教程
+2020-12-03 11:22:20,576 - selenium - INFO - 元素定位成功。定位方式：xpath，使用的值：//input[@id="su"]
+2020-12-03 11:22:20,632 - selenium - INFO - 点击元素成功
+2020-12-03 11:22:32,731 - selenium - ERROR - 没有定位到元素,定位方式：xpath，使用的值：//input[@id="s-top-left"]/a[@href="http://news.baidu.com/"]
+Traceback (most recent call last):
+  File "D:\python\python36-64\project\Python3-Selenium-master\Common\basePage.py", line 102, in get_element
+    element = self.driver.find_element_by_xpath(value)
+  File "D:\python\python36-64\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "D:\python\python36-64\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "D:\python\python36-64\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\python\python36-64\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id="s-top-left"]/a[@href="http://news.baidu.com/"]"}
+  (Session info: chrome=80.0.3987.149)
+
